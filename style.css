@@ -1,0 +1,51 @@
+body{
+    background-color: #6d67e4;
+}
+.input-group{
+   width: fit-content;
+   position: relative;
+   margin-block: 1rem;
+   right: -80px;  
+}
+.input-group input{
+    outline: 2px solid #6d67e4;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: transparent;
+    caret-color: #6d67e4;
+    transition: 0.2s;
+    color: #fff;
+}
+.input-group label{
+    margin-left:3px ;
+    position: absolute;
+    transform: translate(5px,4px);
+    color: #fff;
+    scale: 0.8;
+    transition: 0.2s;
+}
+.input-group input:focus,input:valid{
+    outline: 2px solid #46c2cb;
+}
+input:focus + label,
+input:valid + label{
+    transform: translate(-6px,25px);
+    scale: 0.9;
+}
+.main-div{
+    padding: 20px;
+    margin: 0 auto;
+    width:400px;
+    height: 200px;
+    position: relative;
+    top: 30%;
+    background-color: #21202d;
+    display: flex;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    right: -150px;
+}
